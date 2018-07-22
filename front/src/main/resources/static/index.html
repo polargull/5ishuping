@@ -3,8 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+        .g-doc {
+            position:relative;
+        }
+        .wrap {
+            width: 1080px;
+            margin: 0 auto;
+        }
+        .wrap:after {
+            clear:both;
+            content:'.';
+            display:block;
+            height:0;
+            overflow:hidden;
+            visibility:hidden;
+        }
+        .top-nav {
+            height: 36px;
+            background-color: #eae6e2;
+        }
+        .top-nav li {
+            float: right;
+            padding: 7px 10px;
+        }
+        .p-header {
+            height: 86px;
+            border: 1px solid blue;
+        }
+        .p-header .logo {
+            padding: 18px 0px;
+            /*border: 2px solid blue;*/
+        }
+        .p-header .logo a {
+            float: left;
+            width: 140px;
+            height: 45px;
+            background: url(img/logo.png) no-repeat;
+        }
+        .p-header .search {
+            float: right;
+        }
+    </style>
 </head>
 <body>
+<div class="g-doc">
+    <header>
+        <div class="top-nav">
+            <div class="wrap">
+                <ul>
+                    <li>注册</li>
+                    <li>登录</li>
+                </ul>
+            </div>
+        </div>
+        <div class="p-header">
+            <div class="wrap">
+                <div class="logo"><a href="/" title="我爱评书"></a></div>
+                <div class="search">
+                    <input name="full-txt-search" type="text" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <div></div>
+        <div></div>
+    </div>
+    <footer>
 
+    </footer>
+</div>
 </body>
 </html>
