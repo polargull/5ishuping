@@ -128,3 +128,18 @@ body {
     color: #afa298;
     font-size: 10px;
 }
+.new-books .b-list {
+    position: relative;
+    width: 800px;
+    height: 516px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.new-books li {
+    float: left;
+    width: 133px;
+}
+.new-books img {
+    width: 96px;
+    height: 128px;
+}
