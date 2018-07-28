@@ -1,0 +1,130 @@
+body {
+    text-align: center;
+    background:#fbfaf8;
+}
+.g-doc {
+    position:relative;
+}
+.wrap {
+    width: 1080px;
+    margin: 0 auto;
+}
+.wrap:after {
+    clear:both;
+    content:'.';
+    display:block;
+    height:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+.icn-search {background:url(../img/sprite.png) -9999px -9999px no-repeat;}
+.icn-search {
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -167px -115px;
+}
+.top-nav {
+    height: 36px;
+    background-color: #eae6e2;
+}
+.top-nav li {
+    float: right;
+    padding: 7px 10px;
+}
+.p-header .wrap {
+    position: relative;
+    padding: 20px 0px;
+    height: 45px;
+}
+.p-header .logo {
+    float: left;
+    width: 300px;
+    height: 45px;
+}
+.p-header .logo a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../img/logo.png) no-repeat;
+    display:block;
+    line-height: 45px;
+}
+.p-header .search {
+    float: left;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+.p-header .search .form {
+    position: relative;
+    height: 35px;
+    border: 2px solid #55331C;
+    border-radius: 5px;
+}
+.p-header .search .form .txt {
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-size:6px;
+    color:grep;
+    z-index:1;
+}
+.p-header .search .form .text {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    border: 0px;
+    background: transparent;
+}
+.p-header .search .form .icn-search {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    z-index:1px;
+}
+.main-1 {
+    height: 566px;
+}
+.directory {
+    text-align: left;
+    float: left;
+    width: 270px;
+    overflow: hidden;
+}
+.directory h5 {
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: #55331C;
+}
+.directory ul {
+    width: 272px;
+}
+.directory li {
+    float: left;
+    border-right: 1px solid #D4BFB1;
+}
+.directory li a {
+    display: block;
+    width: 125px;
+    height: 30px;
+    padding: 6px 0px 6px 10px;
+}
+.directory .itm1 {
+    background-color: #55331C;
+}
+.directory .itm1 a {
+    color: #fff;
+}
+.directory span {
+    display: block;
+    padding-bottom: 5px;
+}
+.directory .num {
+    color: #afa298;
+    font-size: 10px;
+}

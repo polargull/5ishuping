@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+body, textarea, select, input {
+    font-family:arial,"Microsoft Yahei",sans-serif;font-size: 14px;color:#333;
+}
 ol, ul {
 	list-style: none;
 }
