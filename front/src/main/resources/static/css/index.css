@@ -87,7 +87,10 @@ body {
     z-index:1px;
 }
 .main-1 {
-    height: 566px;
+    position:relative;
+    width:1080px;
+    margin:0 auto;
+    text-align:left;
 }
 .directory {
     text-align: left;
@@ -128,12 +131,26 @@ body {
     color: #afa298;
     font-size: 10px;
 }
+.new-books {
+    width: 800px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.new-books .b-title {
+    border-bottom: 1px solid #e0dad5;
+    height: 34px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+.new-books .b-title .act {
+    position: absolute;
+    right: 15px;
+    top: 4px;
+}
 .new-books .b-list {
     position: relative;
-    width: 800px;
     height: 516px;
     overflow: hidden;
-    padding-left: 10px;
 }
 .new-books li {
     float: left;

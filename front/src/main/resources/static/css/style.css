@@ -6,3 +6,7 @@ h4{font-size:16px;}
 h5{font-size:14px;}
 a{color:#613f23;text-decoration:none;}
 a:hover{color:#6B3000;text-decoration:none;}
+.more:after {
+    content: "\00BB";
+    padding-left: 0.5em;
+}
