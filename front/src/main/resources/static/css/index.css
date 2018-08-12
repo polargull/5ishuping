@@ -154,7 +154,13 @@ body {
 }
 .new-books li {
     float: left;
-    width: 133px;
+    width: 120px;//120px;
+    padding: 0px 7px 0px 6px;
+    margin-bottom: 10px;
+}
+.new-books li .cover {
+    padding: 0px 12px 10px;
+    display: block;
 }
 .new-books img {
     width: 96px;
