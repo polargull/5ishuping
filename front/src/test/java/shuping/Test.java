@@ -8,9 +8,12 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Test {
     @org.junit.Test
-    public void name() {
-        log.info(">>>>> {}", "info");
-        log.warn(">>>>>>> {}", "warn");
-        log.error(">>>>>>>> {}", "error");
+    public void testLog() {
+        String s = ">>>{}";
+        log.debug(s, "debug");
+        log.warn(s, "warn");
+        log.info(s, "info");
+        log.error(s, "error");
+        log.trace(s, "trace");
     }
 }
